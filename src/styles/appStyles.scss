@@ -1,0 +1,24 @@
+@import 'themeColors';
+$theme-font: Verdana, Sans-serif;
+
+body {
+  font-family: $theme-font;
+  background-color: $themeColor-Light;
+  background-image: url("https://mars.nasa.gov/layout/mer/images/background_NoBlue_tracks.jpg");
+  //background-image: url("https://images.alphacoders.com/453/thumb-1920-453091.jpg");
+
+  background-attachment: fixed;
+  background-position: 50% 0;
+  background-repeat: no-repeat;
+  background-size: cover !important;
+  margin: 0;
+  padding: 0;
+
+  #marsApp{
+    position: absolute;
+    width: 1000px;
+    left: 50%;
+    margin: 0 0 0 -500px;
+  }
+
+}

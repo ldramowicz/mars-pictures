@@ -1,0 +1,46 @@
+@import '../styles/themeColors';
+
+.MainApp {
+  margin-top: 22px;
+  width: 1000px;
+
+  .roverData{
+    width: 30%;
+    display: inline-block;
+    padding: 10px;
+    cursor: pointer;
+
+    .roverImage {
+      height: 190px;
+      background-size: 100%;
+      background-repeat: no-repeat;
+      background-position: top;
+      background-color: #cecece;
+      border-radius: 5px;
+      box-shadow: $themeDropShadow;
+    }
+
+    .roverCaption{
+      height: 20px;
+      background-color: #2f373d;
+      border-radius: 5px;
+      position: relative;
+      top: 4px;
+      color: #f3f2ee;
+      text-align: center;
+      box-shadow: $themeDropShadow;
+    }
+
+    .selected {
+      background: #CC0000;
+    }
+  }
+
+  .roverPicThumbContainer {
+    margin-top: 20px;
+    .instructions{
+      text-align: center;
+      color: #f3f2ee;
+    }
+  }
+}
