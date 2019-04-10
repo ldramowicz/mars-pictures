@@ -1,4 +1,4 @@
-# Latest Mars pictrues
+# Latest pictures from Mars
 
 ### Local Setup
 $ git clone https://github.com/ldramowicz/mars-pictures.git <br>
